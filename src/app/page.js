@@ -25,7 +25,7 @@ const IndexPage = () => {
   };
 
   const generateToken = () => {
-    const randomToken = Math.random().toString(36).substr(2, 10);
+    const randomToken ="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX3Nlc3Npb24iOiJ6enh5N2NsNDJybDUya3kzNmw4Y3ZodHJvNm1mMTV6ZyIsInNmIjoiMTgifQ.vCqXeFizMRsocEIB7siwpQ4Nbtxp6vBem2oR0jkcF-4"
     return randomToken;
   };
 
